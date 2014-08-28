@@ -102,7 +102,7 @@ Route::filter('auth.token', function($route, $request)
 
 		$auth = App::make('auth');
 
-		if($auth->once($credentials))
+		if(Auth::once($credentials))
 		{
 			$authenticated = true;
 

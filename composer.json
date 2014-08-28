@@ -7,7 +7,6 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"cartalyst/sentry": "2.1.*",
-		"jenssegers/agent": "*",
 		"nesbot/Carbon": "*",
 		"hisorange/browser-detect": "1.*"
 	},

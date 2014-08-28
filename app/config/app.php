@@ -123,7 +123,6 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Cartalyst\Sentry\SentryServiceProvider',
-		'Jenssegers\Agent\AgentServiceProvider',
 		'hisorange\BrowserDetect\Provider\BrowserDetectService',
 
 	),
@@ -194,7 +193,6 @@ return array(
 		'View'              => 'Illuminate\Support\Facades\View',
 
 		'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
-		'Agent'            => 'Jenssegers\Agent\Facades\Agent',
 		'BrowserDetect' => 'hisorange\BrowserDetect\Facade\Parser',
 	),
 
